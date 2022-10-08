@@ -1,0 +1,16 @@
+# Faça um Programa que peça um número e informe se o número é inteiro ou decimal.
+
+numero = float(input("Digite um número: ")) 
+
+if (numero % 1) == 0: 
+
+    print("O número é inteiro") 
+
+else: 
+
+    print("o número é decimal") 
+    
+    # Coloquei um input que guardaria o valor com float, fazendo ser possível digitar números inteiros ou decimais.
+    # Coloquei um condição sobre o resto da divisão de números inteiros
+    # Dessa forma, se o número fosse interio o sistema respoderia de uma forma e se fosse decimais de outra.
+   
