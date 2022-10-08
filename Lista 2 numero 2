@@ -1,0 +1,15 @@
+# Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar.
+
+numero = int(input("Digite um número: ")) 
+
+if numero%2 == 0: 
+
+    print("O número é par") 
+
+else: 
+
+    print("O número é ímpar") 
+    
+    # Declarei como inteiro e coloquei um condição.
+    # Coloquei o resto da divisão com como parte da condição.
+    # Dessa forma se sobrar um valor diferente de 0 como resto de divisão o número seria impar.
