@@ -1,0 +1,17 @@
+
+# Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de 
+# um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo 
+# usando este link (em minutos)
+
+mb = float(input("Qual é o tamanho do arquivo que vôce deseja baixar em Mb? ")) 
+
+mbps =  float(input("Qual é a sua velocidade de dowload? ")) 
+
+tempo = mb / mbps / 60
+
+print(f"O tempo para finalizar o dowload é {tempo} minutos.") 
+
+# Introduzi as duas váriaveis, mb e mbps.
+# Defini a variável tempo e a converti para minutos.
+# Finalizei com uma mensagem dizendo ao usuário o tempo de dowload em minutos.
+
