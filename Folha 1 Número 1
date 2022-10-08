@@ -1,0 +1,36 @@
+# Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu 
+# peso ideal, utilizando as seguintes fórmulas:
+# a. Para homens: (72.7*h) - 58
+# b. Para mulheres: (62.1*h) - 44.7
+
+sexo = input("Você é homem ou mulher? ") 
+
+h = float(input("Quantos metros você possui? ")) 
+
+if sexo == "homem": 
+
+    peso=  72.7*h - 58 
+
+    if peso ==58: 
+
+        print("Você está no peso ideal.") 
+
+    else: 
+
+        print("Você não está no peso ideal.") 
+
+else: 
+
+    peso= 62.1*h - 44.7 
+
+    if peso == 44.7: 
+
+        print("Você está no peso ideal.") 
+
+    else: 
+
+        print("Você não está no peso ideal.")
+        
+        # Comecei introduzindo um input pra verificar o sexo do usuário pra eventualmente chamar um if, depois introduzi a váriavel h(altura)
+        # e por fim declarei o que aconteceria em cada if e finalzei.
+        
